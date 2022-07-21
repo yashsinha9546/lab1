@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h2>This is HTML forms tutorial</h2>
+    <h2>MIT WPU ADMISSION</h2>
     <form action="backend.php">
-        <label for="name"> Name</label>
+        <label for="name"></label>
         <div>
-            <input type="text" name="myName" id="name">
+           Name: <input type="text" name="myName" id="name">
         </div>
         <br>
         <div>
@@ -23,7 +24,39 @@
         <div>
             Email: <input type="email" name="myEmail">
         </div>
-
+        <br>
+    <div class="class">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Yash</td>
+                <td>Sinha</td>
+                <td>1032202022</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Tejas</td>
+                <td>Patil</td>
+                <td>1032202018</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Aditya</td>
+                <td>Taware</td>
+                <td>1032202012</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
         <br>
         <div>
             Date: <input type="date" name="myDate">
@@ -49,10 +82,11 @@
 
         <br>
         <div>
-            <label for="car">Car</label>
+            <label for="car">Program</label>
             <select name="myCar" id="car">
-                <option value="ind">Indica</option>
-                <option value="swf" selected>Swift</option>
+                <option value="ind">FY Btech</option>
+                <option value="swf" selected>SY Btech</option>
+                <option value="swf" selected>TY Btech</option>
             </select>
         </div>
         <br>
